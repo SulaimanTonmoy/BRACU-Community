@@ -1,0 +1,43 @@
+.section_text {
+    color: #3b73c6;
+    font-family: Inter;
+    font-size: 8vh;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-shadow: 3px 2px rgba(0, 0, 0, 0.15);
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(255, 255, 255);
+    opacity: 1; /* Firefox */
+}
+
+.forgot_password {
+    color: #555;
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    display: block;
+}
+
+.forgot_password:hover {
+    font-weight: 500;
+}
+
+.login_button {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 250px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    background: rgba(42, 95, 172, 0.60);
+}

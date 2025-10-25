@@ -1,0 +1,100 @@
+#profile {
+  padding: 80px 5px 10px 5px;
+  background: #f7f8ff;
+}
+#supercontainer {
+  background: #f7f8ff;
+  height: 100vh;
+}
+
+.coverPhoto {
+  height: 383px;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+#cover-photo {
+  width: 100%;
+  margin-top: -410px;
+}
+#profile-box {
+  margin-top: -200px;
+  margin-left: 20px;
+  height: fit-content;
+  padding: 70px 0 70px 0;
+  flex-shrink: 0;
+  background: linear-gradient(
+    180deg,
+    rgb(165, 184, 209, 0.7) 0%,
+    rgba(255, 255, 255, 0.1) 60%
+  );
+  backdrop-filter: blur(12.5px);
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+}
+.profile-photo {
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+#profile-container {
+  display: block;
+  text-align: center;
+}
+#name {
+  color: #000;
+  margin-top: 20px;
+  font-family: Inter;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  cursor: pointer;
+}
+.counter{
+    color: #555;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+#status-container{
+  margin-top: 20px;
+}
+#connect-btn{
+  display: block;
+  margin: auto;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 3vh;
+  font-style: normal;
+  font-weight: 700;
+  width: 250px;
+  flex-shrink: 0;
+  border-radius: 40px;
+  background: rgba(42, 95, 172, 0.60);
+  margin-top: 2vh;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+}
+#message-btn{
+  display: block;
+  margin: auto;
+  color: rgba(42, 95, 172, 0.60);
+  font-family: Inter;
+  font-size: 3vh;
+  font-style: normal;
+  font-weight: 700;
+  width: 250px;
+  flex-shrink: 0;
+  border-radius: 40px;
+  background: #FFF;
+  margin-top: 2vh;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+}
+#photoinput{
+  display: none;
+}

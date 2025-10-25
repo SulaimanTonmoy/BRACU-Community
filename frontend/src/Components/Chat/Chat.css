@@ -1,0 +1,28 @@
+#outer-wrapper{
+    padding: 0px;
+    margin: 0px;
+    padding-top: 66px;
+    height: 100vh;
+    width: 100vw;
+}
+
+#left-panel{
+    background-color: rgba(155, 177, 203, 0.48);
+    border-right: 1px solid #e0e0e0;
+    overflow-y: scroll;
+    padding-left: 20px;
+    height: 100%;
+}
+
+#right-panel{
+    height: 100%;
+    display: flex;
+    padding: 0px;
+}
+
+#chatnotactive{
+    color: #cdcdcd;
+    font-size: 3rem;
+    font-weight: bold;
+    margin: auto;
+}

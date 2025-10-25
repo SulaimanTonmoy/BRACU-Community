@@ -1,0 +1,44 @@
+.oneThread{
+    margin: 10px auto;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    color: #000;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.5px; /* 150% */
+}
+
+.threadPic{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+}
+
+.myText{
+    justify-content: flex-end;
+}
+
+.otherText{
+    justify-content: flex-start;
+}
+
+.chatContent{
+    color: #000;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.5px; /* 150% */
+    background-color: #D9D9D9;
+    border-radius: 30px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    width: fit-content;
+    max-width: 70%;
+    margin-bottom: 20px;
+    height: fit-content;
+}

@@ -1,0 +1,7 @@
+POST http://localhost:5173/user/updatename
+Content-Type: application/json
+
+{
+    "id": 1,
+    "name": "new name"
+}

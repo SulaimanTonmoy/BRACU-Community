@@ -1,0 +1,41 @@
+.signup_form {
+    width: 100%;
+    margin: auto;
+}
+
+.label_text {
+    color: #3D3D3D;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 14%;
+    text-shadow: rgba(255, 255, 255, 0.472) 0px 0px 0px;
+}
+
+.signup_button {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 250px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    background: rgba(42, 95, 172, 0.60);
+}
+
+.form_confirmation {
+    color: #3D3D3D;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 550;
+    line-height: normal;
+    text-align: center;
+    margin-top: 10px;
+}

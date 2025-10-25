@@ -1,0 +1,84 @@
+#outerwrapper{
+    height: 100%;
+    width: 100%;
+}
+
+#topbar{
+    height: 7%;
+    width: 100%;
+    background: #2A5FAC;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 7px;
+    align-content: flex-start;
+}
+
+#topbarContent{
+    margin: 0px;
+    align-items: center;
+}
+
+#chatpanel{
+    height: 83%;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+#textcreate{
+    width: 100%;
+    background-color: #2A5FAC;
+    height: 10%;
+    display: flex;
+}
+
+#textcreate form{
+    margin: auto;
+    justify-content: center;
+    display: flex;
+}
+
+#textarea{
+    border-radius: 20px;
+    background: #c1d1e5;
+    padding: 10px 20px;
+    width: 65vw;
+    height: 50px;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+#textarea::placeholder{
+    color: #000;
+    opacity: 0.5;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#sendbutton{
+    margin-left: 10px;
+}
+
+#profilepic{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: 30px;
+}

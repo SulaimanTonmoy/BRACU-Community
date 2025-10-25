@@ -1,36 +1,24 @@
-// to securely use the environment variables in the .env file
-require("dotenv").config();
-
-const express = require("express");
-const cors = require("cors");
-
-const mongoose = require("mongoose");
-
+const express = require('express');
 const app = express();
-
-// middlewares
-app.use(cors());
+const path = require("path");
+const cors = require('cors');
 app.use(express.json());
-
-// app.use((req, res, next) => {
-//   console.log(req.path, req.method)
-//   next()
-// })
-
-// all the API routes
-const userRouter = require("./routes/user");
-app.use("/user", userRouter);
+app.use(cors());
 
 
-// connect to the database
-mongoose
-  .connect(process.env.MONGO_URI)
-  .then(() => {
-    // listen for requests
-    app.listen(process.env.PORT, () => {
-      console.log("connected to db & listening on port", process.env.PORT);
-    });
-  })
-  .catch((error) => {
-    console.log(error);
-  });
+const userRouter = require('./routes/user');
+const postRouter = require('./routes/post');
+const commentRouter = require('./routes/comment');
+const verifyRouter = require('./routes/verify');
+const chatRouter = require('./routes/chat');
+app.use('/user', userRouter);
+app.use('/post', postRouter);
+app.use('/comment', commentRouter);
+app.use('/verify', verifyRouter);
+app.use('/chat', chatRouter);
+app.use("/uploads",express.static(path.join(__dirname, "./uploads/")));
+
+const PORT = 3000;
+app.listen(PORT, () => {
+  console.log('Server is running on port ' + PORT);
+});

@@ -1,0 +1,33 @@
+.outer {
+    width: 88%;
+    flex-shrink: 0;
+    background: #A5B8D1;
+    margin: auto;
+    border-radius: 20px;
+    padding: 25px;
+    margin-top: 5px;
+}
+
+.ProfileStyle {
+    position: relative;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+#statusText {
+    width: 100%;
+    border-radius: 20px;
+    background: #F7F8FF;
+    text-overflow: clip;
+}
+
+#statusText::placeholder {
+    color: #555;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

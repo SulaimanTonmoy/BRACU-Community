@@ -1,0 +1,28 @@
+#boldHead{
+    width: 90%;
+    background: #9bb2cdac;
+    margin: 30px auto 0px auto;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid #454d5735;
+}
+
+.ProfilePic{
+    width: 80%;
+    border-radius: 50%;
+}
+
+#timestamptext{
+    margin-bottom: 0px;
+}
+
+#normalHead{
+    width: 90%;
+    background: #9bb1cb47;
+    margin: 30px auto 0px auto;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid #383e461a;
+}
